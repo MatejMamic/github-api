@@ -1,0 +1,23 @@
+.container {
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  border: 1px solid #020000;
+  text-align: left;
+}
+
+.table th {
+  background-color: #020000;
+}

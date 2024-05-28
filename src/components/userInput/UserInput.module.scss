@@ -1,0 +1,88 @@
+// GitHubUserFetcher.module.scss
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Change height to min-height for better responsiveness */
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  font-family: Arial, sans-serif;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 60vh;
+  border: 1px solid #34495e;
+  border-radius: 8px;
+  background-color: #34495e;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #ecf0f1;
+  color: #2c3e50;
+}
+
+.button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+
+  &:hover {
+    background-color: #0056b3;
+  }
+}
+
+.error {
+  margin-top: 20px;
+  color: red;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #34495e;
+  border-radius: 8px;
+  background-color: #34495e;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 2px solid #000000;
+}
+
+.resetButton {
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  background-color: #ff0000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+
+  &:hover {
+    background-color: #cc0000;
+  }
+}
